@@ -1,0 +1,6 @@
+{
+    "env": {
+        "mongo_atlas_pw": "minhnhat99",
+        "JWT_KEY": "secret"
+    }
+}
