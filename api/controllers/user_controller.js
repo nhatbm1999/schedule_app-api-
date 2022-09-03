@@ -33,6 +33,8 @@ exports.registerEvent = (req, res, next) => {
   const _id = req.body._id;
   const event_name = req.body.event_name;
   const event_description = req.body.event_description;
+  const event_location_latitude = req.body.event_location_latitude;
+  const event_location_longitude = req.body.event_location_longitude;
   const event_image = req.body.event_image;
   const start_time = req.body.start_time;
   const end_time = req.body.end_time;
@@ -42,6 +44,8 @@ exports.registerEvent = (req, res, next) => {
     _id : _id,
     event_name : event_name,
     event_description: event_description,
+    event_location_latitude : event_location_latitude,
+    event_location_longitude: event_location_longitude,
     event_image: event_image,
     start_time: start_time,
     end_time: end_time,
